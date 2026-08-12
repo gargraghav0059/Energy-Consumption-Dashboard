@@ -36,49 +36,72 @@ Renewable Energy CSV
 ---
 
 ## ☁️ AWS S3 & IAM
-Uploaded the raw CSV dataset to an Amazon S3 bucket.
-Created an AWS IAM role to provide the required permissions for Snowflake to access the S3 data.
-Established the cloud storage layer for the analytics pipeline.
-❄️ Snowflake
-Connected Snowflake with Amazon S3.
-Configured the required access and data-loading setup.
-Loaded the dataset into Snowflake.
-Used Snowflake SQL for data analysis and aggregation.
-📊 Tableau Dashboard
+
+- Uploaded the raw CSV dataset to an **Amazon S3 bucket**.
+- Created an **AWS IAM role** to provide the required permissions for Snowflake to access the S3 data.
+- Established the cloud storage layer for the analytics pipeline.
+
+---
+
+## ❄️ Snowflake
+
+- Connected **Snowflake with Amazon S3**.
+- Configured the required access and data-loading setup.
+- Loaded the dataset into Snowflake.
+- Used **Snowflake SQL** for data analysis and aggregation.
+
+---
+
+## 📊 Tableau Dashboard
 
 Built an interactive Tableau dashboard to analyze:
 
-⚡ KWh by Country
-🌍 KWh by Region
-🔋 KWh by Energy Source
-📈 CSU by Region
-🌱 CSU by Energy Source
+- ⚡ **KWh by Country**
+- 🌍 **KWh by Region**
+- 🔋 **KWh by Energy Source**
+- 📈 **CSU by Region**
+- 🌱 **CSU by Energy Source**
 
 The dashboard provides a visual comparison of renewable energy consumption across different geographical regions and energy sources.
 
-🛠️ Tech Stack
-Category	Technologies
-☁️ Cloud	AWS S3, AWS IAM
-❄️ Data Warehouse	Snowflake
-🗄️ Querying	SQL
-📊 Visualization	Tableau
-📁 Data	CSV
-💡 Key Skills Demonstrated
-Cloud Data Storage
-AWS IAM & Access Management
-Snowflake Data Warehousing
-SQL Data Analysis
-Data Loading & Integration
-Data Visualization
-Dashboard Development
-📂 Project Files
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| ☁️ Cloud | AWS S3, AWS IAM |
+| ❄️ Data Warehouse | Snowflake |
+| 🗄️ Querying | SQL |
+| 📊 Visualization | Tableau |
+| 📁 Data | CSV |
+
+---
+
+## 💡 Key Skills Demonstrated
+
+- Cloud Data Storage
+- AWS IAM & Access Management
+- Snowflake Data Warehousing
+- SQL Data Analysis
+- Data Loading & Integration
+- Data Visualization
+- Dashboard Development
+
+---
+
+## 📂 Project Files
+
+```text
 📁 Renewable-Energy-Analytics
 │
 ├── 📄 Renewable-Energy-Usage-Sampled.csv
 ├── 📊 Energy Consumption Dashboard.twbx
 └── 📖 README.md
-🎯 Outcome
+
+--- 
+## 🎯 Outcome
 
 Built a complete cloud-to-dashboard analytics workflow, integrating AWS S3, IAM, Snowflake, SQL, and Tableau to transform raw renewable energy data into meaningful visual insights.
 
-🌱 AWS → Snowflake → SQL → Tableau
+## 🌱 AWS S3 → ❄️ Snowflake → 🗄️ SQL → 📊 Tableau
