@@ -106,5 +106,3 @@ Renewable-Energy-Analytics
 Built a complete cloud-to-dashboard analytics workflow, integrating AWS S3, IAM, Snowflake, SQL, and Tableau to transform raw renewable energy data into meaningful visual insights.
 
 ---
-
-## 🌱 AWS S3 → ❄️ Snowflake → 🗄️ SQL → 📊 Tableau
