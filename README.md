@@ -18,20 +18,19 @@ The complete workflow covers:
 
 ## 🏗️ Data Pipeline
 
-
-Renewable Energy CSV
-        ↓
-   ☁️ Amazon S3
-        ↓
-   🔐 AWS IAM Role
-        ↓
-   ❄️ Snowflake
-        ↓
-   🗄️ SQL Analysis
-        ↓
-   📊 Tableau
-        ↓
- Interactive Dashboard
+**Renewable Energy CSV**  
+↓  
+☁️ **Amazon S3**  
+↓  
+🔐 **AWS IAM Role**  
+↓  
+❄️ **Snowflake**  
+↓  
+🗄️ **SQL Analysis**  
+↓  
+📊 **Tableau**  
+↓  
+🎯 **Interactive Dashboard**
 
 ---
 
