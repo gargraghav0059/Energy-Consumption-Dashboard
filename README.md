@@ -18,7 +18,7 @@ The complete workflow covers:
 
 ## 🏗️ Data Pipeline
 
-```text
+
 Renewable Energy CSV
         ↓
    ☁️ Amazon S3
@@ -92,7 +92,7 @@ The dashboard provides a visual comparison of renewable energy consumption acros
 
 ## 📂 Project Files
 
-```text
+
 📁 Renewable-Energy-Analytics
 │
 ├── 📄 Renewable-Energy-Usage-Sampled.csv
@@ -103,5 +103,7 @@ The dashboard provides a visual comparison of renewable energy consumption acros
 ## 🎯 Outcome
 
 Built a complete cloud-to-dashboard analytics workflow, integrating AWS S3, IAM, Snowflake, SQL, and Tableau to transform raw renewable energy data into meaningful visual insights.
+
+---
 
 ## 🌱 AWS S3 → ❄️ Snowflake → 🗄️ SQL → 📊 Tableau
